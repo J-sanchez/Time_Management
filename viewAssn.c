@@ -18,11 +18,11 @@ void viewAssignment( )
 
     int home;
 
-    printf("\n\n\t\t*********************\n");
+    printf("\n\n\t\t***********************\n");
 
     printf("\t\t* VIEWING ASSIGNMENTS *");
 
-    printf("\n\t\t*********************\n\n");
+    printf("\n\t\t***********************\n\n");
 
     do
 
