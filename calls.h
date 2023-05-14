@@ -5,8 +5,7 @@ int main();
 void addAssignment();
 void viewAssignment();
 void editAssignment();
-
-// void deleteAssignment();
+void deleteAssignment();
 
 struct record
 {

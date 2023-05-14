@@ -77,7 +77,7 @@ void addAssignment( )
 
             {
 
-                printf("\n\tTHE RECORD ALREADY EXISTS.\n");
+                printf("\n\tTHE ASSIGNMENT ALREADY EXISTS.\n");
 
                 choice=1;
 
@@ -117,11 +117,11 @@ void addAssignment( )
 
             fwrite ( &e, sizeof( e ), 1, fp ) ;
 
-            printf("\nYOUR RECORD IS ADDED...\n");
+            printf("\nYOUR ASSIGNMENT IS ADDED...\n");
 
         }
 
-        printf ( "\n\tADD ANOTHER RECORD...(Y/N) " ) ;
+        printf ( "\n\tADD ANOTHER ASSIGNMENT...(Y/N) " ) ;
 
         fflush ( stdin ) ;
 

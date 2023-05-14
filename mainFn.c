@@ -9,11 +9,11 @@ int main()
 
     int home;
 
-    printf("\n\n\t***********************************\n");
+    printf("\n\n\t**************************\n");
 
-    printf("\t*TIME MANAGEMENT TOOL*\n");
+    printf("\t\t*TIME MANAGEMENT TOOL*\n");
 
-    printf("\t***********************************");
+    printf("\t**************************");
 
     while(1)
 
@@ -59,29 +59,29 @@ int main()
 
             break;
 
-        // case 4:
+        case 4:
 
-        //     deleteAssignment();
+            deleteAssignment();
 
-        //     break;
+            break;
 
-        // case 5:
+        case 5:
 
-        //     printf("\n\n\t\tGOOD LUCK! ");
+            printf("\n\n\t\tGOOD LUCK! ");
 
-        //     getchar();
+            getchar();
 
-        //     exit(0);
+            exit(0);
 
-        // default:
+        default:
 
-        //     printf("\nYOU ENTERED WRONG CHOICE..");
+            printf("\nYOU ENTERED WRONG CHOICE..");
 
-        //     printf("\nPRESS ANY KEY TO TRY AGAIN");
+            printf("\nPRESS ANY KEY TO TRY AGAIN");
 
-        //     getchar();
+            getchar();
 
-            // break;
+            break;
         }
     return 0;
 

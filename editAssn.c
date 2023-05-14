@@ -3,7 +3,7 @@
 #include<string.h>
 #include "calls.h"
 
-void editrecord()
+void editAssignment()
 
 {
 
@@ -17,11 +17,11 @@ void editrecord()
 
     int num,count=0;
 
-    printf("\n\n\t\t*******************************\n");
+    printf("\n\n\t\t*****************\n");
 
     printf("\t\t* EDITING MENU *");
 
-    printf("\n\t\t*******************************\n\n");
+    printf("\n\t\t*****************\n\n");
 
     do
 
