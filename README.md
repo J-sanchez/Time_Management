@@ -10,7 +10,7 @@ To try out this application, simply clone the repostitory and run: clang mainFn.
 
 ## Demo of the Application 
 
-![Show Program](./Assets/Demo_C.mov)
+![Show Program](/Assets/Demo_C.MP4)
 
 ## Contributors
 Jonathan C. Sanchez
