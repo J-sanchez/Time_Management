@@ -18,11 +18,11 @@ void viewAssignment( )
 
     int home;
 
-    printf("\n\n\t\t*******************************\n");
+    printf("\n\n\t\t*********************\n");
 
     printf("\t\t* VIEWING ASSIGNMENTS *");
 
-    printf("\n\t\t*******************************\n\n");
+    printf("\n\t\t*********************\n\n");
 
     do
 
@@ -40,7 +40,7 @@ void viewAssignment( )
 
         {
 
-            puts ( "\nTHE RECORD DOES NOT EXIST...\n" ) ;
+            puts ( "\nTHE ASSIGNMENT DOES NOT EXIST...\n" ) ;
 
             printf("PRESS ANY KEY TO EXIT...");
 
@@ -52,9 +52,9 @@ void viewAssignment( )
 
         system("clear");
 
-        printf("\n\tHOW WOULD YOU LIKE TO VIEW:\n");
+        printf("\n\tWOULD YOU LIKE TO VIEW:\n");
 
-        printf("\n\t1.WHOLE RECORD OF THE DAY.");
+        printf("\n\t  1.WHOLE ASSIGNMENT OF THE DAY?");
 
         printf("\n\t\tENTER YOUR CHOICE:");
         printf("\n\tENTER 1 TO CONTINUE, OR ANY KEY TO EXIT: ");
@@ -67,7 +67,7 @@ void viewAssignment( )
 
         case 1:
 
-            printf("\nTHE WHOLE RECORD FOR %s IS:",filename);
+            printf("\nTHE WHOLE ASSIGNMENT FOR %s IS:",filename);
 
             while ( fread ( &assignment, sizeof ( assignment ), 1, fpte ) == 1 )
 

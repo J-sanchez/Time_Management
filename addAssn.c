@@ -107,7 +107,7 @@ void addAssignment( )
 
             printf("\tENTER STUDY TIME:");
 
-           scanf("%d",e.duration);
+           scanf("%s",e.duration);
 
             fflush(stdin);
 
