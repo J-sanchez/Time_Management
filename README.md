@@ -10,7 +10,8 @@ To try out this application, simply clone the repostitory and run: clang mainFn.
 
 ## Demo of the Application 
 
-![Show Program](/Assets/Demo_C.MP4)
+![Show Program](/Users/jcsanchez/Desktop/Time_Management/Assets/Demo_C.mov)
+
 
 ## Contributors
 Jonathan C. Sanchez
