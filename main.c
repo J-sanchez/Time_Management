@@ -1,29 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-
-void addAssignment();
-
-void viewAssignment();
-
-void editAssignment();
-
-void deleteAssignment();
-
-struct record
-{
-
-    char time[50];
-
-    char name[30];
-
-    char place[25];
-
-    char duration[50];
-
-    char note[500];
-
-} ;
+#include "calls.h"
 
 int main()
 
@@ -54,11 +32,23 @@ int main()
         printf("\n\tEXIT\t\t        [5]");
 
         printf("\n\n\tENTER YOUR CHOICE:");
-        
+
         break;
         system("clear");
     }
+        scanf("%d",&home);
 
+        switch(home)
+
+        {
+
+        case 1:
+
+            addAssignment();
+
+            break;
+
+        }
     return 0;
 
 }
