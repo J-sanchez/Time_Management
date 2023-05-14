@@ -25,7 +25,7 @@ void addAssignment( )
 
     printf("\n\t\t***************************\n\n");
 
-    printf("\n\n\tENTER ASSIGNMENT NAME:");
+    printf("\n\n\tENTER ASSIGNMENT NAME(no spaces):");
 
     fflush(stdin);
 
@@ -91,7 +91,7 @@ void addAssignment( )
 
             strcpy(e.time,time);
 
-            printf("\tENTER CLASS:");
+            printf("\tENTER CLASS NAME:");
 
             fflush(stdin);
 
@@ -101,7 +101,7 @@ void addAssignment( )
 
             printf("\tENTER CHAPTERS:");
 
-           scanf("%s",e.name1);
+           scanf("%s",e.chp);
 
             fflush(stdin);
 

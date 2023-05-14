@@ -47,7 +47,41 @@ int main()
             addAssignment();
 
             break;
+        case 2:
 
+            viewAssignment();
+
+            break;
+
+        // case 3:
+
+        //     editAssignment();
+
+        //     break;
+
+        // case 4:
+
+        //     deleteAssignment();
+
+        //     break;
+
+        // case 5:
+
+        //     printf("\n\n\t\tTHANK YOU FOR USING THE SOFTWARE ");
+
+        //     getchar();
+
+        //     exit(0);
+
+        // default:
+
+        //     printf("\nYOU ENTERED WRONG CHOICE..");
+
+        //     printf("\nPRESS ANY KEY TO TRY AGAIN");
+
+        //     getchar();
+
+            // break;
         }
     return 0;
 

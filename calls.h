@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+int main();
 void addAssignment();
-
-// void viewAssignment();
+void viewAssignment();
 
 // void editAssignment();
 
@@ -16,7 +16,7 @@ struct record
 
     char name[30];
 
-    char name1[30];
+    char chp[30];
 
     char duration[200];
 
