@@ -56,8 +56,8 @@ void viewAssignment( )
 
         printf("\n\t1.WHOLE RECORD OF THE DAY.");
 
-        printf("\n\tENTER YOUR CHOICE:");
-        printf("\n\t1 TO CONTINUE, ANY KEY to EXIT: ");
+        printf("\n\t\tENTER YOUR CHOICE:");
+        printf("\n\tENTER 1 TO CONTINUE, OR ANY KEY TO EXIT: ");
 
         scanf("%d",&home);
 

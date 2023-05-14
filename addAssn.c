@@ -19,11 +19,11 @@ void addAssignment( )
 
     int choice;
 
-    printf("\n\n\t\t***************************\n");
+    printf("\n\n\t\t******************\n");
 
     printf("\t\t* ADD ASSIGNMENT *");
 
-    printf("\n\t\t***************************\n\n");
+    printf("\n\t\t******************\n\n");
 
     printf("\n\n\tENTER ASSIGNMENT NAME(no spaces):");
 
@@ -107,7 +107,7 @@ void addAssignment( )
 
             printf("\tENTER STUDY TIME:");
 
-           scanf("%s",e.duration);
+           scanf("%d",e.duration);
 
             fflush(stdin);
 

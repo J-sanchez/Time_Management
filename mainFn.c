@@ -9,11 +9,11 @@ int main()
 
     int home;
 
-    printf("\n\n\t**************************\n");
+    printf("\n\n\t**********************\n");
 
-    printf("\t\t*TIME MANAGEMENT TOOL*\n");
+    printf("\t*TIME MANAGEMENT TOOL*\n");
 
-    printf("\t**************************");
+    printf("\t**********************");
 
     while(1)
 
