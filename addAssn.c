@@ -63,7 +63,7 @@ void addAssignment( )
 
         fflush(stdin);
 
-        printf ( "\n\tENTER DUE DATE:[yyyy-mm-dd]:");
+        printf ( "\n\tENTER ENTER DUE DATE:[yyyy-mm-dd]:");
 
         scanf("%s",time);
 

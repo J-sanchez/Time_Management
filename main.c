@@ -53,11 +53,11 @@ int main()
 
             break;
 
-        // case 3:
+        case 3:
 
-        //     editAssignment();
+            editAssignment();
 
-        //     break;
+            break;
 
         // case 4:
 
@@ -67,7 +67,7 @@ int main()
 
         // case 5:
 
-        //     printf("\n\n\t\tTHANK YOU FOR USING THE SOFTWARE ");
+        //     printf("\n\n\t\tGOOD LUCK! ");
 
         //     getchar();
 

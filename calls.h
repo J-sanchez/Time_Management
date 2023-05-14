@@ -4,8 +4,7 @@
 int main();
 void addAssignment();
 void viewAssignment();
-
-// void editAssignment();
+void editAssignment();
 
 // void deleteAssignment();
 
